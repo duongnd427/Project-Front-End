@@ -9,31 +9,23 @@
 .dropdown-item.active, .dropdown-item:active{color:#212529;}
 .dropdown-item:focus, .dropdown-item:hover{background:#fec400;}
 
-.state-table{
-    border: solid ;
-    display: inline-block;
-    margin: 3%;
-    padding: 5%;
+.card{
 }
-.detail-table{
-    text-align: center;
+.backround{
+    min-height: 100vh;
 }
+.navbar{
+    position : fixed;
+}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
 }
 
-.table1{
-    background-color: green;
-}
-.table2{
-    background-color:red;;
-}
 .backround{
     background-image: url("https://i.ytimg.com/vi/QX4j_zHAlw8/maxresdefault.jpg");
-
-
         /* Full height */
         height: 100%; 
     
@@ -42,3 +34,13 @@ p{
         background-repeat: no-repeat;
         background-size: cover;
 }
+
+.card-columns {
+    display: inline-block;
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }

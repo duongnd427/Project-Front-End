@@ -1,72 +1,58 @@
 import React, { Component } from 'react'
 import { Container, Button } from 'reactstrap'
+import NavBar from '../Components/NavBar'
 
+const table = {
+    width: '15rem',
+}
 export default class Table extends Component {
     render() {
         return (
             <div className='backround'>
                 <Container>
-                    <div className='tables ' >
-                        <div className='state-table table1'>
-                            <p>Bàn 1</p>
-                            <Button>Đặt Bàn</Button>
+                    <NavBar />
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
                         </div>
-                        <div className='state-table table2'>
-                            <p>Bàn 2</p>
-                            <Button className='disable' disabled>Đặt Bàn</Button>
+                        <div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
+                        </div><div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
+                        </div><div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
+                        </div><div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
                         </div>
-                        <div className='state-table'>
-                            <p>Bàn 3</p>
-                            <Button>Đặt Bàn</Button>
+                        <div class="card">
+                            <img class="card-img-top" src="http://kenhvanhoc.edu.vn/wp-content/uploads/2014/09/ban-hoc.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bàn 1</h5>
+                                <Button>Đặt Bàn</Button>
+                            </div>
                         </div>
-                        <div className='state-table'>
-                            <p>Bàn 4</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 5</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 6</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 7</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        <div className='state-table'>
-                            <p>Bàn 8</p>
-                            <Button>Đặt Bàn</Button>
-                        </div>
-                        
                         
                     </div>
-
                 </Container>
             </div>
         )
